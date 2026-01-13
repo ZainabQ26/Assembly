@@ -93,17 +93,7 @@ cd Assembly
 **Branching:** `beq`, `bne`, `j`, `jal`, `jr`  
 **System:** `syscall` (for input/output)
 
-## 🔧 Example Usage
-
-```assembly
-# BMI Calculator Example
-# Input: Weight = 150 lbs, Height = 68 inches
-# Output: BMI = 22.8 (Normal weight)
-```
-
 ## 💬 Contact
 **Zainab Qazi** - [GitHub](https://github.com/ZainabQ26) - [LinkedIn](https://www.linkedin.com/in/zainab--qazi/)
 
 ---
-
-*Developed for Computer Organization & Design course at Penn State University-Harrisburg*
