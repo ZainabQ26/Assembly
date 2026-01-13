@@ -102,11 +102,7 @@ cd Assembly
 ```
 
 ## 💬 Contact
-
-**Zainab Qazi**
-- GitHub: [@zozo080212](https://github.com/zozo080212)
-- LinkedIn: [linkedin.com/in/zainab--qazi](https://www.linkedin.com/in/zainab--qazi/)
-- Email: zainabqazi1712@gmail.com
+**Zainab Qazi** - [GitHub](https://github.com/ZainabQ26) - [LinkedIn](https://www.linkedin.com/in/zainab--qazi/)
 
 ---
 
