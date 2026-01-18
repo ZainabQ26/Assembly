@@ -7,37 +7,29 @@ A collection of MIPS Assembly language programs demonstrating low-level programm
 ### 1. BMI Calculator (`bmi.asm`)
 Calculates Body Mass Index based on user input:
 - Accepts weight in pounds
-- Accepts height in inches
+- Accepts height in inches  
 - Computes and displays BMI value
-- Provides health category classification
 
-### 2. Caffeine Calculator (`caffeine.asm`)
-Models caffeine metabolism:
-- Calculates caffeine levels over time
-- Implements exponential decay formula
-- Displays remaining caffeine percentage
+### 2. Caffeine to Cups Converter (`caffeine.asm`)
+Converts caffeine measurements:
+- Accepts ounces input
+- Accepts milligrams of caffeine
+- Calculates and displays number of cups
 
-### 3. Loan Calculator (`loan.asm`)
-Computes loan payment information:
+### 3. Loan Interest Calculator (`loan.asm`)
+Computes simple interest on loans:
 - Principal amount input
-- Interest rate calculations
-- Monthly payment computation
-- Total interest calculation
+- Interest rate input
+- Number of years input
+- Calculates total interest using formula: (P × R × T) / 100
 
-### 4. Square Root Function (`sqrt.asm`)
-Implements square root algorithm:
-- Newton's method implementation
-- Iterative approximation
-- Precision control
-
-### 5. Time Calculations (`time.asm`)
-Performs time-related operations:
-- Time format conversions
-- Duration calculations
-- Time zone adjustments
+### 4. Time Converter (`time.asm`)
+Converts seconds to time format:
+- Accepts total seconds as input
+- Converts to hours, minutes, and seconds
+- Displays formatted time output
 
 ## 🛠️ Technologies
-
 - **Language:** MIPS Assembly
 - **Simulator:** QtSPIM / MARS
 - **Architecture:** MIPS32
@@ -50,7 +42,6 @@ Performs time-related operations:
 - Text editor (VS Code recommended)
 
 ### Installation
-
 1. Clone the repository
 ```bash
 git clone https://github.com/ZainabQ26/Assembly.git
@@ -68,32 +59,24 @@ cd Assembly
    - Follow prompts in console
 
 ## 📚 Key Concepts
-
-- **Registers:** Understanding MIPS register usage ($t0-$t9, $s0-$s7, $a0-$a3, $v0-$v1)
-- **System Calls:** Using syscalls for I/O operations
-- **Arithmetic:** Integer and floating-point operations
-- **Memory:** Stack operations and data segment usage
-- **Control Flow:** Branching and looping in assembly
-- **Functions:** Implementing procedures with proper conventions
+- **Registers:** Using MIPS registers ($t0-$t6, $v0, $a0)
+- **System Calls:** Using syscalls for I/O operations (print, read, exit)
+- **Arithmetic:** Integer operations (multiplication, division)
+- **Memory:** Data segment usage for strings and variables
 
 ## 🎓 Learning Outcomes
-
-- Gained deep understanding of computer architecture
-- Mastered low-level programming concepts
-- Learned register management and calling conventions
-- Implemented mathematical algorithms in assembly
+- Gained understanding of computer architecture
+- Learned low-level programming concepts
+- Practiced register management
+- Implemented mathematical calculations in assembly
 - Debugged assembly code using simulator tools
-- Understood memory organization and addressing
+- Understood memory organization
 
 ## 📝 MIPS Instruction Set Used
-
-**Arithmetic:** `add`, `sub`, `mul`, `div`, `addi`  
-**Logical:** `and`, `or`, `xor`, `sll`, `srl`  
-**Memory:** `lw`, `sw`, `la`, `li`  
-**Branching:** `beq`, `bne`, `j`, `jal`, `jr`  
+**Arithmetic:** `mul`, `div`, `li`  
+**Data Movement:** `move`, `mflo`, `mfhi`  
+**Memory:** `la`  
 **System:** `syscall` (for input/output)
 
 ## 💬 Contact
 **Zainab Qazi** - [GitHub](https://github.com/ZainabQ26) - [LinkedIn](https://www.linkedin.com/in/zainab--qazi/)
-
----
